@@ -1,0 +1,49 @@
+Uso del Sistema
+1. Ejecutar todos los experimentos
+python3 experiments/run_all.py
+
+
+Esto:
+
+Genera grafos de 100, 500 y 1000 nodos
+
+Ejecuta Dijkstra, A*, y Dijkstra Bidireccional
+
+Repite 3 veces por par origen–destino
+
+Guarda resultados en:
+
+experiments/results/resultados_YYYYMMDD_HHMMSS.csv
+
+2. Generar gráficas automáticamente
+python3 experiments/plots/plot_results.py
+
+
+Se generarán:
+
+tiempo_vs_nodos.png
+
+nodos_expandidos_vs_nodos.png
+
+boxplot_tiempos_por_algoritmo.png
+
+Ubicadas en:
+
+experiments/plots/
+
+
+Estas imágenes son las mismas usadas en el reporte académico.
+
+3. Ejecutar la demo simple
+python3 main.py
+
+
+Este script:
+
+Genera un grafo pequeño
+
+Ejecuta los tres algoritmos
+
+Muestra ruta encontrada, costo, nodos expandidos y tiempo
+
+
