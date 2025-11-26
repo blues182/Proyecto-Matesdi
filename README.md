@@ -81,7 +81,8 @@ Ventajas:
 │   ├── results/             # CSVs generados automáticamente
 │   └── plots/               # Gráficas para el reporte
 │
-├── report
-│             # Reporte final del proyecto
+├── report                  # Reporte final del proyecto
+│
+│── presentacion           
 │
 └── README.md
