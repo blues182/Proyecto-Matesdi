@@ -68,12 +68,7 @@ Ventajas:
 ## 🗂️ Estructura del Repositorio
 
 ```text
-.
-├── data/
-│   ├── nodos.csv            # Coordenadas (xi, yi)
-│   ├── aristas.csv          # Conexiones entre nodos
-│   └── pares_OD.csv         # Pares origen–destino para pruebas
-│
+
 ├── src/
 │   ├── dijkstra.py          # Dijkstra tradicional
 │   ├── astar.py             # Algoritmo A*
@@ -86,7 +81,7 @@ Ventajas:
 │   ├── results/             # CSVs generados automáticamente
 │   └── plots/               # Gráficas para el reporte
 │
-├── report/
-│   └── informe.pdf          # Reporte final del proyecto
+├── report
+│             # Reporte final del proyecto
 │
 └── README.md
